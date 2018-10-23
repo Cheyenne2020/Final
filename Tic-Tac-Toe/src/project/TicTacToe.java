@@ -49,6 +49,8 @@ public class TicTacToe {
 			case 7:
 				line = board[2] + board[4] + board[6];
 				break;
+			default:
+				line = "Error";
 			}
 			if (line.equals("XXX")) {
 				return "X";
